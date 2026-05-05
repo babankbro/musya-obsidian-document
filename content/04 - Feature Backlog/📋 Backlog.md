@@ -28,14 +28,14 @@
 - [ ] `UX` Add "Forgot Password" on login
 - [ ] `UX` Add output format selector (DOCX, XLSX, JPG)
 	- [ ] รายงาน WORD PDF
-	- [ ] อยุ่ใน ช่อง chat ตอนตอบ จะมีตาราง -> XLSX  มีปุ่ม download 
+	- [ ] อยุ่ใน ช่อง chat ตอนตอบ จะมีตาราง -> CSV or XLSX  มีปุ่ม download 
 	- [ ] graph เป็น JPG มีปุ่ม download 
 - [ ] `UX` Add pre-built menu buttons (Strategic Plan / Action Plan / Project)
 
 ### Reports
-- [ ] `REPORT` Add Executive Summary section (บทสรุปผู้บริหาร)
-- [ ] `REPORT` Add SWOT Analysis section
-- [ ] `REPORT` Improve objective clarity in generated plans
+- [ ] ==`REPORT` Add Executive Summary section (บทสรุปผู้บริหาร)==  *default*
+- [ ] ==`REPORT` Add SWOT Analysis section==
+- [ ] ==`REPORT` Improve objective clarity in generated plans==
 
 ### Data
 - [ ] `DATA` Connect HDC (Health Data Center) — Ministry of Public Health
@@ -48,11 +48,11 @@
 ## 🟢 Sprint 3 — Polish Before Demo (May 17–24)
 
 - [ ] `UX` Visual redesign — modern UI, better colors and layout
-- [ ] `UX` Dummy table input for custom output structure
-- [ ] `REPORT` Add PDCA analysis framework
-- [ ] `REPORT` Add Six Building Blocks of Health System template
-- [ ] `REPORT` Add budget allocation analysis section
-- [ ] `REPORT` Add sub-district/village level recommendations
+- [ ] ==`UX` Dummy table input for custom output structure==
+- [ ] ==`REPORT` Add PDCA analysis framework==
+- [ ] ==`REPORT` Add Six Building Blocks of Health System template==
+- [ ] ==`REPORT` Add budget allocation analysis section==
+- [ ] REPORT Add sub-district/village level recommendations
 - [ ] `FEATURE` PDPA warning on user file upload
 - [ ] `FEATURE` User file upload for personal AI analysis
 - [ ] `DATA` Add PubMed / Scopus / Web of Science integration

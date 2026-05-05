@@ -32,16 +32,16 @@
 
 > ✅ = Complete | ⚠️ = Partial | ❌ = Missing | — = Not applicable
 
-| Domain | อุบล | ศรีสะเกษ | ยโสธร | อำนาจเจริญ | มุกดาหาร |
-|--------|------|---------|-------|-----------|---------|
-| D1 Road Accidents | 🔵 | 🔵 | 🔵 | 🔵 | 🔵 |
-| D2 Mental Health | 🔵 | 🔵 | 🔵 | 🔵 | 🔵 |
-| D3 NCDs | 🔵 | 🔵 | 🔵 | 🔵 | 🔵 |
-| D4 Nutrition | 🔵 | 🔵 | 🔵 | 🔵 | 🔵 |
-| D5 Elderly | 🔵 | 🔵 | 🔵 | 🔵 | 🔵 |
-| D6 Communicable | 🔵 | 🔵 | 🔵 | 🔵 | 🔵 |
-| D7 Cancer | 🔵 | 🔵 | 🔵 | 🔵 | 🔵 |
-| D8 Population | 🔵 | 🔵 | 🔵 | 🔵 | 🔵 |
+| Domain            | อุบล | ศรีสะเกษ | ยโสธร | อำนาจเจริญ | มุกดาหาร |
+| ----------------- | ---- | -------- | ----- | ---------- | -------- |
+| D1 Road Accidents | 🔵   | 🔵       | 🔵    | 🔵         | 🔵       |
+| D2 Mental Health  | 🔵   | 🔵       | 🔵    | 🔵         | 🔵       |
+| D3 NCDs           | 🔵   | 🔵       | 🔵    | 🔵         | 🔵       |
+| D4 Nutrition      | 🔵   | 🔵       | 🔵    | 🔵         | 🔵       |
+| D5 Elderly        | 🔵   | 🔵       | 🔵    | 🔵         | 🔵       |
+| D6 Communicable   | 🔵   | 🔵       | 🔵    | 🔵         | 🔵       |
+| D7 Cancer         | 🔵   | 🔵       | 🔵    | 🔵         | 🔵       |
+| D8 Population     | 🔵   | 🔵       | 🔵    | 🔵         | 🔵       |
 
 > Update status: 🔵 Not Started → ⚠️ Partial → ✅ Done → ❌ Missing/Blocked
 
