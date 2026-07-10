@@ -124,4 +124,5 @@ Bug Fixes            UX + Data         Live        Lunch
 
 ---
 
+*[[01 - Sprint Plan/📆 Daily Schedule July 10-29 (เฟส 2) | → ตารางกำหนดงานรายวัน 10–29 ก.ค. (เฟส 2)]]*
 *[[00 - Overview/🏠 Project Home | ← Back to Project Home]]*

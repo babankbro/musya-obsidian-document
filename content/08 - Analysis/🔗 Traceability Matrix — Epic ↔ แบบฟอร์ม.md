@@ -17,78 +17,78 @@
 
 # 🅰️ ทิศ A — Epic → แบบฟอร์ม → ข้อย่อย/คำถาม
 
-| Epic | งาน | เติมช่องว่างเรื่อง | ปรากฏในแบบฟอร์ม | ข้อย่อย / คำถาม |
-|------|-----|-------------------|-----------------|------------------|
-| **E0** | Phase-1 Regression Guard | ความเร็ว/layout/scrollbar คงไว้ | 2 SUS | Q3 ใช้ง่าย |
-| E0 | " | " | 3 UEQ | Efficiency |
-| E0 | " | " | 4 NASA-TLX | Temporal Demand |
-| E0 | " | " | 10 Think-Aloud | หา scrollbar/ปุ่ม export |
-| E0 | " | " | (นอกชุด) Policy Impact | ลดเวลาวิเคราะห์ |
-| **E1** | Determinism / Reproducibility | ผลไม่นิ่ง (FR-R2-01/BUG-R2-01) | 2 SUS | Q6 ความสอดคล้อง, Q9 มั่นใจ |
-| E1 | " | " | 3 UEQ | Dependability |
-| E1 | " | " | 4 NASA-TLX | Frustration |
-| E1 | " | " | 5 TAM3 §5.3 | BI เจตนาใช้ต่อ |
-| E1 | " | " | 5 TAM3 §5.4 | Trust in AI: ผลเชื่อถือได้ |
-| E1 | " | " | 7 Benchmark | ROUGE-L (วัดซ้ำได้) |
-| E1 | " | " | 9 Focus Group | "เชื่อผลได้แค่ไหน" |
-| E1 | " | " | 10 Think-Aloud | "ผลแต่ละครั้งไม่เหมือน" |
-| **E2** | Retrieval ตรงปี + Citation | ผิดปี/citation หาย (FR-R2-02/05, BUG-004) | 3 UEQ | Dependability |
-| E2 | " | " | 6 Rubric | ความถูกต้อง, Evidence-based |
-| E2 | " | " | 7 Benchmark | Factual Accuracy |
-| E2 | " | " | 8 Comparative | ความน่าเชื่อถือผล |
-| E2 | " | " | 9 Focus Group | citation |
-| E2 | " | " | 5 TAM3 §5.4 | Trust in AI: ใช้ข้อมูลเหมาะสม, มั่นใจตัดสินใจ |
-| **E3** | Calculation Accuracy | ตัวแปร/หน่วยคลาด (BUG-R2-04, BUG-012) | 6 Rubric | ความถูกต้องข้อมูล |
-| E3 | " | " | 7 Benchmark | Factual Accuracy |
-| E3 | " | " | 5 TAM3 §5.4 | Trust in AI: ผลเชื่อถือได้ |
-| **E4** | Instruction-Following | รายงานไม่ตรงคำสั่ง (BUG-R2-03) | 2 SUS | Q5 ฟังก์ชันเข้ากัน |
-| E4 | " | " | 4 NASA-TLX | Performance |
-| E4 | " | " | 6 Rubric | Clarity |
-| E4 | " | " | 10 Think-Aloud | "สั่งแล้วได้ไม่ตรง", Partial Edit |
-| E4 | " | " | 5 TAM3 §5.4 | Trust in AI: ลดข้อผิดพลาดวิเคราะห์ |
-| **E5** | Prompt Template + Menu | ไม่รู้จะพิมพ์อะไร (FR-003/008) | 2 SUS | Q2, Q4, Q7, Q10 |
-| E5 | " | " | 3 UEQ | Perspicuity |
-| E5 | " | " | 4 NASA-TLX | Mental Demand |
-| E5 | " | " | 5 TAM3 §5.2 | PEOU |
-| E5 | " | " | 9 Focus Group | "ขอแล้วยังไม่มี" |
-| E5 | " | " | 10 Think-Aloud | "ไม่รู้จะพิมพ์อะไร" |
-| **E6** | Report Structure Templates | ขาด Exec/SWOT/PDCA/6BB/งบ (FR-001/002/009/010/011) | 4 NASA-TLX | Effort (Exec Summary) |
-| E6 | " | " | 6 Rubric | ความครบโครงสร้าง, งบประมาณ |
-| E6 | " | " | 8 Comparative | ความครบโครงสร้าง |
-| E6 | " | " | (นอกชุด) Policy Impact | จัดสรรทรัพยากร |
-| **E7** | KPI Numeric Input | เป้าลอย ไม่อิงตัวเลข (FR-R2-03) | 6 Rubric | Feasibility |
-| E7 | " | " | 8 Comparative | อิงเป้า KPI จริง |
-| E7 | " | " | (นอกชุด) Policy Impact | จัดสรรทรัพยากร |
-| **E8** | Forecasting + Comparative | แค่สรุปอดีต (FR-R2-04/08) | 3 UEQ | Stimulation, Novelty |
-| E8 | " | " | 5 TAM3 §5.1 | PU |
-| E8 | " | " | 6 Rubric | มุมมองอนาคต |
-| E8 | " | " | 8 Comparative | ความสามารถวิเคราะห์ |
-| E8 | " | " | (นอกชุด) Policy Impact | ตัดสินใจเร็ว, ยกคุณภาพนโยบาย |
-| **E9** | Data Foundation (5 จว.+ชาติ) | ข้อมูลไม่ครบ (FR-R2-06/07/09/10) | 2 SUS | Q6 (controlled vocab) |
-| E9 | " | " | 6 Rubric | คุณภาพข้อมูลต้นทาง |
-| E9 | " | " | 7 Benchmark | BERTScore (ข้อมูลครบ) |
-| E9 | " | " | 9 Focus Group | "ครอบคลุมเขต 10 ไหม" |
-| E9 | " | " | 5 TAM3 §5.4 | Trust in AI: ใช้ข้อมูลเหมาะสม, ใช้ในราชการ |
-| **E10** | Export & Output Formats | รูปแบบไฟล์/DOCX ตกบรรทัด (FR-007/015, BUG-005) | 2 SUS | Q1 อยากใช้บ่อย |
-| E10 | " | " | 6 Rubric | นำไปใช้จริงได้ทันที |
-| E10 | " | " | 8 Comparative | ผลผลิตพร้อมใช้ |
-| **E11** | PDPA & Security / File Upload | ความปลอดภัย/กฎหมาย (FR-013/014/036) | 5 TAM3 §5.3 | BI (ความเชื่อมั่น) |
-| E11 | " | " | 5 TAM3 §5.4 | Trust in AI: ใช้ในราชการได้ |
-| **E12** | Sub-district / Village | เจาะตำบล/หมู่บ้าน (FR-006/016, BUG-015) | 6 Rubric | ความครบถ้วน/ระบุปัญหาชัด |
-| E12 | " | " | 8 Comparative | ความละเอียดวิเคราะห์ |
-| E12 | " | " | (นอกชุด) Policy Impact | ระบุปัญหาชัด |
-| **E13** | Eval Harness & Observability | วัดผล/จับ regression (งานใหม่) | ทุกฟอร์ม | ทางอ้อม (ยืนยันว่าแก้แล้วดีขึ้น) |
-| **E14** | Domain Data Expansion | ขยายโดเมน (FR-016–031) | 6 Rubric | ครอบคลุมโดเมน |
-| E14 | " | " | 7 Benchmark | Factual Accuracy |
-| E14 | " | " | (นอกชุด) Policy Impact | ครอบคลุมปัญหาสุขภาพ |
-| **E15** | Token / Quota / Cost | คุมต้นทุน/abuse (FR-034) | (Ops) | ไม่ผูกฟอร์มโดยตรง |
-| **E16** | Accessibility & Readability | ฟอนต์/contrast (FR-035, BUG-009) | 2 SUS | Q3 ใช้ง่าย |
-| E16 | " | " | 3 UEQ | Attractiveness, Perspicuity |
-| **E17** | In-App Feedback Loop | เก็บ feedback ในระบบ (งานใหม่) | 9 Focus Group | ช่องรับความเห็น |
-| E17 | " | " | 10 Think-Aloud | รายงานปัญหาทันที |
-| E17 | " | " | 5 TAM3 §5.4 | Trust in AI: ลดข้อผิดพลาด (loop ปรับปรุง) |
-| **E18** | Academic / Reference DB | แหล่งวิชาการ + 403 ThaiJO (FR-032/033, BUG-001) | 6 Rubric | Evidence-based |
-| E18 | " | " | 7 Benchmark | Factual Accuracy |
+| Epic    | งาน                           | เติมช่องว่างเรื่อง                                 | ปรากฏในแบบฟอร์ม        | ข้อย่อย / คำถาม                               |
+| ------- | ----------------------------- | -------------------------------------------------- | ---------------------- | --------------------------------------------- |
+| **E0**  | Phase-1 Regression Guard      | ความเร็ว/layout/scrollbar คงไว้                    | 2 SUS                  | Q3 ใช้ง่าย                                    |
+| E0      | "                             | "                                                  | 3 UEQ                  | Efficiency                                    |
+| E0      | "                             | "                                                  | 4 NASA-TLX             | Temporal Demand                               |
+| E0      | "                             | "                                                  | 10 Think-Aloud         | หา scrollbar/ปุ่ม export                      |
+| E0      | "                             | "                                                  | (นอกชุด) Policy Impact | ลดเวลาวิเคราะห์                               |
+| **E1**  | Determinism / Reproducibility | ผลไม่นิ่ง (FR-R2-01/BUG-R2-01)                     | 2 SUS                  | Q6 ความสอดคล้อง, Q9 มั่นใจ                    |
+| E1      | "                             | "                                                  | 3 UEQ                  | Dependability                                 |
+| E1      | "                             | "                                                  | 4 NASA-TLX             | Frustration                                   |
+| E1      | "                             | "                                                  | 5 TAM3 §5.3            | BI เจตนาใช้ต่อ                                |
+| E1      | "                             | "                                                  | 5 TAM3 §5.4            | Trust in AI: ผลเชื่อถือได้                    |
+| E1      | "                             | "                                                  | 7 Benchmark            | ROUGE-L (วัดซ้ำได้)                           |
+| E1      | "                             | "                                                  | 9 Focus Group          | "เชื่อผลได้แค่ไหน"                            |
+| E1      | "                             | "                                                  | 10 Think-Aloud         | "ผลแต่ละครั้งไม่เหมือน"                       |
+| **E2**  | Retrieval ตรงปี + Citation    | ผิดปี/citation หาย (FR-R2-02/05, BUG-004)          | 3 UEQ                  | Dependability                                 |
+| E2      | "                             | "                                                  | 6 Rubric               | ความถูกต้อง, Evidence-based                   |
+| E2      | "                             | "                                                  | 7 Benchmark            | Factual Accuracy                              |
+| E2      | "                             | "                                                  | 8 Comparative          | ความน่าเชื่อถือผล                             |
+| E2      | "                             | "                                                  | 9 Focus Group          | citation                                      |
+| E2      | "                             | "                                                  | 5 TAM3 §5.4            | Trust in AI: ใช้ข้อมูลเหมาะสม, มั่นใจตัดสินใจ |
+| **E3**  | Calculation Accuracy          | ตัวแปร/หน่วยคลาด (BUG-R2-04, BUG-012)              | 6 Rubric               | ความถูกต้องข้อมูล                             |
+| E3      | "                             | "                                                  | 7 Benchmark            | Factual Accuracy                              |
+| E3      | "                             | "                                                  | 5 TAM3 §5.4            | Trust in AI: ผลเชื่อถือได้                    |
+| **E4**  | Instruction-Following         | รายงานไม่ตรงคำสั่ง (BUG-R2-03)                     | 2 SUS                  | Q5 ฟังก์ชันเข้ากัน                            |
+| E4      | "                             | "                                                  | 4 NASA-TLX             | Performance                                   |
+| E4      | "                             | "                                                  | 6 Rubric               | Clarity                                       |
+| E4      | "                             | "                                                  | 10 Think-Aloud         | "สั่งแล้วได้ไม่ตรง", Partial Edit             |
+| E4      | "                             | "                                                  | 5 TAM3 §5.4            | Trust in AI: ลดข้อผิดพลาดวิเคราะห์            |
+| **E5**  | Prompt Template + Menu        | ไม่รู้จะพิมพ์อะไร (FR-003/008)                     | 2 SUS                  | Q2, Q4, Q7, Q10                               |
+| E5      | "                             | "                                                  | 3 UEQ                  | Perspicuity                                   |
+| E5      | "                             | "                                                  | 4 NASA-TLX             | Mental Demand                                 |
+| E5      | "                             | "                                                  | 5 TAM3 §5.2            | PEOU                                          |
+| E5      | "                             | "                                                  | 9 Focus Group          | "ขอแล้วยังไม่มี"                              |
+| E5      | "                             | "                                                  | 10 Think-Aloud         | "ไม่รู้จะพิมพ์อะไร"                           |
+| **E6**  | Report Structure Templates    | ขาด Exec/SWOT/PDCA/6BB/งบ (FR-001/002/009/010/011) | 4 NASA-TLX             | Effort (Exec Summary)                         |
+| E6      | "                             | "                                                  | 6 Rubric               | ความครบโครงสร้าง, งบประมาณ                    |
+| E6      | "                             | "                                                  | 8 Comparative          | ความครบโครงสร้าง                              |
+| E6      | "                             | "                                                  | (นอกชุด) Policy Impact | จัดสรรทรัพยากร                                |
+| **E7**  | KPI Numeric Input             | เป้าลอย ไม่อิงตัวเลข (FR-R2-03)                    | 6 Rubric               | Feasibility                                   |
+| E7      | "                             | "                                                  | 8 Comparative          | อิงเป้า KPI จริง                              |
+| E7      | "                             | "                                                  | (นอกชุด) Policy Impact | จัดสรรทรัพยากร                                |
+| **E8**  | Forecasting + Comparative     | แค่สรุปอดีต (FR-R2-04/08)                          | 3 UEQ                  | Stimulation, Novelty                          |
+| E8      | "                             | "                                                  | 5 TAM3 §5.1            | PU                                            |
+| E8      | "                             | "                                                  | 6 Rubric               | มุมมองอนาคต                                   |
+| E8      | "                             | "                                                  | 8 Comparative          | ความสามารถวิเคราะห์                           |
+| E8      | "                             | "                                                  | (นอกชุด) Policy Impact | ตัดสินใจเร็ว, ยกคุณภาพนโยบาย                  |
+| **E9**  | Data Foundation (5 จว.+ชาติ)  | ข้อมูลไม่ครบ (FR-R2-06/07/09/10)                   | 2 SUS                  | Q6 (controlled vocab)                         |
+| E9      | "                             | "                                                  | 6 Rubric               | คุณภาพข้อมูลต้นทาง                            |
+| E9      | "                             | "                                                  | 7 Benchmark            | BERTScore (ข้อมูลครบ)                         |
+| E9      | "                             | "                                                  | 9 Focus Group          | "ครอบคลุมเขต 10 ไหม"                          |
+| E9      | "                             | "                                                  | 5 TAM3 §5.4            | Trust in AI: ใช้ข้อมูลเหมาะสม, ใช้ในราชการ    |
+| **E10** | Export & Output Formats       | รูปแบบไฟล์/DOCX ตกบรรทัด (FR-007/015, BUG-005)     | 2 SUS                  | Q1 อยากใช้บ่อย                                |
+| E10     | "                             | "                                                  | 6 Rubric               | นำไปใช้จริงได้ทันที                           |
+| E10     | "                             | "                                                  | 8 Comparative          | ผลผลิตพร้อมใช้                                |
+| **E11** | PDPA & Security / File Upload | ความปลอดภัย/กฎหมาย (FR-013/014/036)                | 5 TAM3 §5.3            | BI (ความเชื่อมั่น)                            |
+| E11     | "                             | "                                                  | 5 TAM3 §5.4            | Trust in AI: ใช้ในราชการได้                   |
+| **E12** | Sub-district / Village        | เจาะตำบล/หมู่บ้าน (FR-006/016, BUG-015)            | 6 Rubric               | ความครบถ้วน/ระบุปัญหาชัด                      |
+| E12     | "                             | "                                                  | 8 Comparative          | ความละเอียดวิเคราะห์                          |
+| E12     | "                             | "                                                  | (นอกชุด) Policy Impact | ระบุปัญหาชัด                                  |
+| **E13** | Eval Harness & Observability  | วัดผล/จับ regression (งานใหม่)                     | ทุกฟอร์ม               | ทางอ้อม (ยืนยันว่าแก้แล้วดีขึ้น)              |
+| **E14** | Domain Data Expansion         | ขยายโดเมน (FR-016–031)                             | 6 Rubric               | ครอบคลุมโดเมน                                 |
+| E14     | "                             | "                                                  | 7 Benchmark            | Factual Accuracy                              |
+| E14     | "                             | "                                                  | (นอกชุด) Policy Impact | ครอบคลุมปัญหาสุขภาพ                           |
+| **E15** | Token / Quota / Cost          | คุมต้นทุน/abuse (FR-034)                           | (Ops)                  | ไม่ผูกฟอร์มโดยตรง                             |
+| **E16** | Accessibility & Readability   | ฟอนต์/contrast (FR-035, BUG-009)                   | 2 SUS                  | Q3 ใช้ง่าย                                    |
+| E16     | "                             | "                                                  | 3 UEQ                  | Attractiveness, Perspicuity                   |
+| **E17** | In-App Feedback Loop          | เก็บ feedback ในระบบ (งานใหม่)                     | 9 Focus Group          | ช่องรับความเห็น                               |
+| E17     | "                             | "                                                  | 10 Think-Aloud         | รายงานปัญหาทันที                              |
+| E17     | "                             | "                                                  | 5 TAM3 §5.4            | Trust in AI: ลดข้อผิดพลาด (loop ปรับปรุง)     |
+| **E18** | Academic / Reference DB       | แหล่งวิชาการ + 403 ThaiJO (FR-032/033, BUG-001)    | 6 Rubric               | Evidence-based                                |
+| E18     | "                             | "                                                  | 7 Benchmark            | Factual Accuracy                              |
 
 ---
 

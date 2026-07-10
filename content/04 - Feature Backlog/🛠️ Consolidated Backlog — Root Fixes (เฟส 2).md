@@ -15,18 +15,19 @@
 
 ## 🔗 Coverage Matrix — Epic ไหนยกฟอร์มไหน
 
-| Epic | งานหลัก | ฟอร์มที่ยกขึ้น | จำนวนฟอร์ม |
-|------|---------|---------------|:---:|
-| **E0** | Phase-1 Regression Guard | 2, 3, 10 | 3 |
-| **E1** | Determinism / Reproducibility | 3, 5 (+§5.4), 7, 9 | 4 |
-| **E2** | Retrieval ตรงปี + Citation | 3, 5 §5.4, 6, 7 | 4 |
-| **E3** | Calculation Accuracy | 6, 7 (+5 §5.4) | 2 |
-| **E4** | Instruction-Following | 4, 6, 10 | 3 |
-| **E5** | Prompt Template + Preset Menu | 2, 4, 5, 9, 10 | 5 |
-| **E6** | Report Structure Templates | 4, 6, 8 | 3 |
-| **E7** | KPI Numeric Input | 6, 8 | 2 |
-| **E8** | Forecasting + Comparative | 3, 5 §5.4, 6, 8 | 4 |
-| **E9** | Data Foundation (5 จว.+ชาติ) | 5 §5.4, 6, 7 | 3 |
+| Epic   | งานหลัก                       | ฟอร์มที่ยกขึ้น     | จำนวนฟอร์ม |
+| ------ | ----------------------------- | ------------------ | :--------: |
+| **E0** | Phase-1 Regression Guard      | 2, 3, 10           |     3      |
+| **E1** | Determinism / Reproducibility | 3, 5 (+§5.4), 7, 9 |     4      |
+| **E2** | Retrieval ตรงปี + Citation    | 3, 5 §5.4, 6, 7    |     4      |
+| **E3** | Calculation Accuracy          | 6, 7 (+5 §5.4)     |     2      |
+| **E4** | Instruction-Following         | 4, 6, 10           |     3      |
+| **E5** | Prompt Template + Preset Menu | 2, 4, 5, 9, 10     |     5      |
+| **E6** | Report Structure Templates    | 4, 6, 8            |     3      |
+| **E7** | KPI Numeric Input             | 6, 8               |     2      |
+| **E8** | Forecasting + Comparative     | 3, 5 §5.4, 6, 8    |     4      |
+| **E9** | Data Foundation (5 จว.+ชาติ)  | 5 §5.4, 6, 7       |     3      |
+|        |                               |                    |            |
 
 > [!tip] ลำดับทำตาม ROI
 > **E1 → E2 → E5 → E9 → E7/E8** — E1+E2 ปลดล็อกฟอร์มความเชื่อถือ (7 Benchmark, 5 §5.4 Trust) ซึ่งฉุดคะแนนรอบ 2 มากสุด
