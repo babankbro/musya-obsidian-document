@@ -48,9 +48,6 @@
 
 ## 🗂️ Data Sources Directory
 
-> [!tip] ข้อมูลนำเข้าชุดใหม่ (ก.ค. 2569)
-> แหล่ง + วิธีดึง Open Data ครบ 13 หมวด (แผนเขต · ประชากร · OPD/IPD/ตาย · กำลังคน 7 วิชาชีพ · Service Plan/CMI · งบค่าเสื่อม · ตรวจราชการ ฯลฯ) ดูที่ [[07 - Data Collection/🌐 แหล่งข้อมูลนำเข้าใหม่ & วิธีดึง Open Data|🌐 แหล่งข้อมูลนำเข้าใหม่ & วิธีดึง Open Data]]
-
 | Source                                 | Data Available                                            | Access Method    |
 | -------------------------------------- | --------------------------------------------------------- | ---------------- |
 | **HDC** (hdcservice.moph.go.th)        | NCD, elderly, maternal, all health indicators by district | Web portal / API |
